@@ -1,5 +1,6 @@
 # SYRIATEL TELECOM ANALYSIS
 **Author:** [Daniel Omondi Oselu](https://github.com/danieloselu3)
+**Presentation slides:** [Non technical presentation](/syriatel_analysis_presentation.pdfsyr)
 
 ## OVERVIEW
 Building a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company.
