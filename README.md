@@ -1,4 +1,4 @@
-# ANALYSIS OF A TELECOMMUNICATION DATASET
+# SYRIATEL TELECOM ANALYSIS
 **Author:** [Daniel Omondi Oselu](https://github.com/danieloselu3)
 
 ## OVERVIEW
@@ -11,7 +11,7 @@ Assisting The Acquisitions team to be able to detect customers likely to unsubsc
 
 Image by <a href="https://pixabay.com/users/mmisof-1574106/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1010862">Michael Misof</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1010862">Pixabay</a>
 
-## DATA
+## DATA UNDESTANDING
 The dataset is contained in a CSV(comma separated Values) file, stored in the *`data/`* folder in the current folder. The target we'll be using is the churn column, that indicates to us if the client churned or not. Our dataset contains 3333 datapoints/rows and 21 columns giving details about each datapoint. Which is not a lot, but enough for this particular analysis. 
 
 The dataset available contains information about a particular customer, and it can be downloaded from Kaggle at [SyriaTel Dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset).
@@ -34,6 +34,17 @@ For the models iterations are developed by methodically improving from prior mod
 
 We then iteratively add more features, while trying to settle on the best model.
 
+## MODELLING
+In our modelling, we used different algorithms, and tried to tune the hyperparameters to get ourself a better model.
+
+Our final model had an Accuracy score of 79%, and an ROC and AUC as shown below;
+
+![ROC Curve](images/output.png)
+
+
+The confusion matrix for our model on the test set was as below
+![Confusion matrix](images/confusion%20matrix.png)
+
 ## RESULTS
 | Question of interest       | Finding        |
 | ------------- |-------------|
@@ -54,6 +65,6 @@ We then iteratively add more features, while trying to settle on the best model.
 ├── images
 ├── __init__.py
 ├── README.md
-├── analysis_presentation.pdf
-└── analysis.ipynb
+├── syriatel_analysis_presentation.pdf
+└── syriatel_telecom_analysis.ipynb
 ```
